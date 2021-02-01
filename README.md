@@ -1,4 +1,3 @@
-# ML5
-Machine Learning with ML5.js
+# [ML5](https://douglasdl.github.io/ML5/index.html)
 
-Image Classification
+Machine Learning with ML5.js
