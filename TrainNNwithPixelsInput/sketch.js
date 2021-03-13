@@ -1,6 +1,6 @@
 // The video and pixel scale
 let video;
-let videoSize = 10;
+let videoSize = 32;
 let ready = false;
 
 let pixelBrain;
@@ -16,7 +16,7 @@ function setup() {
         inputs: videoSize * videoSize * 3,
         outputs: 2,
         task: 'classification',
-        debug: true
+        debug: false
     }
     pixelBrain = ml5.neuralNetwork(options);
     pixelBrain.loadData('data.json', loaded);
