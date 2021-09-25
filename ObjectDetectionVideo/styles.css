@@ -1,0 +1,69 @@
+body {
+    background:#2882dc;
+    height: 90vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main, video {
+    align-self: center;
+}
+#listContainer {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.column {
+    width: 50vw;
+    padding: auto;
+}
+
+ul {
+      background: #3399ff;
+      padding: 20px;
+    
+}
+
+ul li {
+      background: #cce5ff;
+      margin: 3px;
+    border-radius: 10px;
+    padding: 3px;
+    list-style: none;
+    align-self: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    order: 10;
+}
+
+a {
+    text-decoration: none;	
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
